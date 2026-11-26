@@ -4,7 +4,7 @@ Conformal Emergent Reality Model (CERM) – Research Hub
 
 **Author:** Salman Akhtar  
 **Website:** [Open the CERM Research Hub](https://kalahari00.github.io/Conformal-Emergent-Reality-Model-CERM/)  
-**ORCID:** [0009-0000-8105-9597](https://orcid.org/0009-0000-8105-9597) | **Google Scholar:** [Profile](https://scholar.google.com/citations?user=90R6n4YAAAAJ) | **Wikidata:** [Public record (Q142293532)](https://www.wikidata.org/wiki/Q142293532) | **Scholia:** [Research profile](https://scholia.toolforge.org/author/Q142293532)
+**ORCID:** [0009-0000-8105-9597](https://orcid.org/0009-0000-8105-9597) | **Google Scholar:** [Profile](https://scholar.google.com/citations?user=90R6n4YAAAAJ) | **Wikidata:** [Public record (Q142293532)](https://www.wikidata.org/wiki/Q142293532) | **Scholia:** [Main](https://scholia.toolforge.org/author/Q142293532) · [Alternate](https://qlever.scholia.wiki/author/Q142293532)
 
 ## Start here
 
