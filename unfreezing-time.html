@@ -4,45 +4,102 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Unfreezing Time: Unifying General Relativity and Quantum Mechanics through Conformal Emergent Geometry – Salman Akhtar</title>
-
-  <!-- Google Scholar / Highwire Press Metadata -->
+  <meta name="description" content="Unfreezing Time by Salman Akhtar. For nearly a century, attempts to unify general relativity and quantum mechanics have confronted the problem of time." />
+  <link rel="canonical" href="https://kalahari00.github.io/Conformal-Emergent-Reality-Model-CERM/unfreezing-time.html" />
+  <!-- Bibliographic metadata for this paper and its hosted PDF. -->
   <meta name="citation_title" content="Unfreezing Time: Unifying General Relativity and Quantum Mechanics through Conformal Emergent Geometry" />
   <meta name="citation_author" content="Akhtar, Salman" />
   <meta name="citation_publication_date" content="2026/10/16" />
-  <meta name="citation_online_date" content="2026/10/16" />
   <meta name="citation_doi" content="10.5281/zenodo.22947669" />
   <meta name="citation_abstract_html_url" content="https://kalahari00.github.io/Conformal-Emergent-Reality-Model-CERM/unfreezing-time.html" />
   <meta name="citation_pdf_url" content="https://kalahari00.github.io/Conformal-Emergent-Reality-Model-CERM/Unfreezing_Time__Unifying_General_Relativity_and_Quantum_Mechanics_through_Conformal_Emergent_Geometry_v1_1___final.pdf" />
-
   <style>
-    :root { --bg: #fafafa; --card: #ffffff; --text: #1a202c; --muted: #4a5568; --accent: #1d4ed8; --border: #e2e8f0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Georgia, serif; background: var(--bg); color: var(--text); line-height: 1.65; margin: 0; padding: 2rem 1rem; }
-    .container { max-width: 820px; margin: 0 auto; }
-    .card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 2rem; margin-bottom: 1.5rem; }
-    .back { display: inline-block; margin-bottom: 1rem; font-size: 0.92rem; color: var(--accent); text-decoration: none; font-weight: 600; }
-    h1 { margin: 0 0 0.5rem 0; font-size: 1.55rem; line-height: 1.3; }
-    .meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 1.25rem; }
-    .actions a { display: inline-block; margin: 0.25rem 0.6rem 0.25rem 0; padding: 0.45rem 0.9rem; font-size: 0.92rem; color: #ffffff; background: var(--accent); border-radius: 5px; text-decoration: none; font-weight: 600; }
-    .actions a.secondary { color: var(--accent); background: #eff6ff; border: 1px solid #bfdbfe; }
-    h2 { font-size: 1.15rem; margin-top: 1.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+
+    :root { --bg:#fafafa; --card:#fff; --text:#1a202c; --muted:#4a5568; --accent:#1d4ed8; --border:#e2e8f0; }
+    * { box-sizing:border-box; }
+    body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; margin:0; padding:2rem 1rem; }
+    .container { max-width:900px; margin:0 auto; }
+    header, main { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:1.75rem 2rem; margin-bottom:1.5rem; }
+    h1 { font-size:1.85rem; line-height:1.3; margin:0 0 .6rem; overflow-wrap:break-word; }
+    h2 { font-size:1.3rem; line-height:1.4; margin:0 0 1rem; }
+    p { margin:0 0 1rem; }
+    p:last-child { margin-bottom:0; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    a:focus-visible { outline:3px solid #93c5fd; outline-offset:3px; }
+    .back { display:inline-block; margin:0 0 1.25rem; font-size:.95rem; }
+    .subtitle, .meta, .keywords, .source-note { color:var(--muted); }
+    .subtitle { font-size:1.05rem; margin-bottom:1rem; }
+    .meta { font-size:.95rem; margin-bottom:.45rem; overflow-wrap:anywhere; }
+    .actions, .badges { display:flex; flex-wrap:wrap; gap:.65rem; margin-top:1.1rem; }
+    .button, .badges a { display:inline-block; background:#eff6ff; border:1px solid #bfdbfe; border-radius:5px; padding:.4rem .8rem; font-size:.92rem; font-weight:600; }
+    .button.primary { color:white; background:var(--accent); border-color:var(--accent); }
+    .button:hover, .badges a:hover { text-decoration:none; filter:brightness(.96); }
+    #abstract p { margin:0 0 1.15rem; }
+    .keywords { font-size:.92rem; margin-top:1.25rem; }
+    .source-note { border-left:3px solid var(--border); padding:.6rem 0 .6rem 1rem; margin-top:1.25rem; font-size:.94rem; }
+    .citation-block, .related { border-top:1px solid var(--border); padding-top:1.5rem; margin-top:1.75rem; }
+    pre { background:#f6f8fa; border:1px solid var(--border); border-radius:6px; padding:1rem; font-size:.84rem; line-height:1.5; white-space:pre-wrap; overflow-wrap:anywhere; margin:0; }
+    ol { padding-left:1.4rem; margin:0; }
+    .papers li { padding-left:.25rem; margin-bottom:1.5rem; }
+    .papers li:last-child { margin-bottom:0; }
+    .papers p { margin:.3rem 0; }
+    .paper-title { font-size:1.08rem; font-weight:700; }
+    .links { font-size:.94rem; margin-top:.45rem; display:flex; flex-wrap:wrap; gap:.25rem .8rem; }
+    .related ul { padding-left:1.2rem; margin:0; }
+    .related li { margin:.35rem 0; }
+    .math { font-family:"Cambria Math","STIX Two Math",Georgia,serif; white-space:nowrap; }
+    footer { text-align:center; font-size:.85rem; color:var(--muted); padding:.5rem 0 1rem; }
+    @media (max-width:600px) { body { padding:1rem .65rem; } header,main { padding:1.3rem 1.1rem; } h1 { font-size:1.55rem; } .subtitle { font-size:1rem; } }
+    @media print { body { padding:0; background:white; color:black; } header,main { padding:0; border:0; } .back,.actions,.badges,.related { display:none; } a { color:inherit; } }
   </style>
 </head>
 <body>
   <div class="container">
-    <a class="back" href="index.html">&larr; Back to CERM Research Hub</a>
-    <div class="card">
+    <nav aria-label="Breadcrumb"><a class="back" href="index.html">← Back to the CERM Research Hub</a></nav>
+    <header>
       <h1>Unfreezing Time: Unifying General Relativity and Quantum Mechanics through Conformal Emergent Geometry</h1>
-      <div class="meta">Salman Akhtar &middot; Published October 16, 2026 &middot; Version v1.1 &middot; DOI: 10.5281/zenodo.22947669</div>
+      <p class="subtitle">A Conformal Emergent Reality Model Framework</p>
+      <p class="meta"><strong>Salman Akhtar</strong> · Independent Researcher · <a href="https://orcid.org/0009-0000-8105-9597" target="_blank" rel="noopener">ORCID: 0009-0000-8105-9597</a></p>
+      <p class="meta">Preprint v1.1 · <time datetime="2026-10-16">16 October 2026</time></p>
+      <p class="meta">DOI: <a href="https://doi.org/10.5281/zenodo.22947669" target="_blank" rel="noopener">10.5281/zenodo.22947669</a></p>
       <div class="actions">
-        <a href="Unfreezing_Time__Unifying_General_Relativity_and_Quantum_Mechanics_through_Conformal_Emergent_Geometry_v1_1___final.pdf">Download Full PDF</a>
-        <a class="secondary" href="https://doi.org/10.5281/zenodo.22947669" target="_blank" rel="noopener">View on Zenodo</a>
-        <a class="secondary" href="https://orcid.org/0009-0000-8105-9597" target="_blank" rel="noopener">ORCID</a>
+        <a class="button primary" href="Unfreezing_Time__Unifying_General_Relativity_and_Quantum_Mechanics_through_Conformal_Emergent_Geometry_v1_1___final.pdf">Read full PDF</a>
+        <a class="button" href="https://doi.org/10.5281/zenodo.22947669" target="_blank" rel="noopener">Latest version on Zenodo →</a>
       </div>
-      <h2>Abstract</h2>
-      <p>
-        The HTML document outlines Salman Akhtar's paper, "Unfreezing Time: Unifying General Relativity and Quantum Mechanics through Conformal Emergent Geometry," addressing the problem of time in quantum gravity through the Conformal Emergent Reality Model (CERM).
-      </p>
-    </div>
+    </header>
+    <main>
+      <section id="abstract" aria-labelledby="abstract-heading">
+        <h2 id="abstract-heading">Abstract</h2>
+        <p>For nearly a century, attempts to unify general relativity and quantum mechanics have confronted the problem of time. Ordinary quantum mechanics describes evolution against an external time parameter, while general relativity makes measured time a property of dynamical spacetime. In canonical quantum gravity, this tension appears in the “frozen” Wheeler–DeWitt equation, where no external clock governs the universe’s evolution. The Conformal Emergent Reality Model (CERM) addresses this not by imposing an external clock, but by unfreezing time from the geometry itself.</p>
+        <p>Within a reduced homogeneous sector, a curvature variable is shown to be canonically conjugate to an internally constructed geometric clock, called proto-time. Quantizing this pair supplies a concrete realization of CERM’s quantum-geometric uncertainty principle (QGUP). Because curvature also governs the generation of physical scale, the clock and the ruler are linked to a common quantum-geometric origin. Time is no longer merely an external stage: geometric ordering participates in the process that generates physical scale, drives cosmic evolution, and establishes the macroscopic arrow of time. One scalar field, Ω, generates measurable spacetime through local curvature response and Chronos, accumulated curvature-weighted history. Under stated correspondence conditions, an effectively classical metric yields Einstein gravity, while a sufficiently classical geometric clock yields ordinary quantum evolution in physical proper time.</p>
+        <p>CERM proposes geometric inflation, Omegon dark matter, and Chronos-driven late acceleration as alternatives to conventional inflationary and dark-sector models. These emerge from one conformal-geometric foundation: Ω generates physical scale, responds to curvature, and accumulates history. Following this field through an entire aeon extends Penrose’s conformal cyclic picture into a proposed dynamics of cosmic evolution. Primordial expansion dilutes curvature, lightens the Omegon, and slows proto-time, weakening its own inflationary conditions. A curvature-squared effective realization yields approximately sixty physical e-folds and a positive-curvature exit. The same excitation supplies derived local dark-matter dynamics, while accumulating Chronos enlarges the geometry’s recording capacity. Geometric entropy measures this growing capacity, linking expansion, accumulated records, and the arrow of time. CERM proposes that this compounding can drive late acceleration without a fundamental cosmological constant; a declared response regime has an exact finite onset of acceleration.</p>
+        <p>As masses fade and black holes evaporate, the remaining curvature anchors weaken. Under CERM’s boundary prescription, physical regions terminate at a positive-curvature quantum-geometric threshold, permitting finite-time completion with finite incoming scale. A proposed Virtual-Sector transfer kernel, formulated through analytic continuation of proto-time, carries selected conformal relationships, phases, and correlations into the next high-curvature seed. Under a finite-capacity bound per resolved volume, nonzero inherited information requires nonzero seed volume. Renewal is conditioned by both the surviving information and the geometry required to carry it.</p>
+        <p class="keywords"><strong>Keywords:</strong> quantum gravity; problem of time; emergent spacetime; conformal cyclic cosmology (CCC); emergent time; emergent scale; relational time; proto-time; canonical quantum gravity; Wheeler–DeWitt equation; conformal geometry; integrable Weyl geometry; quantum-geometric uncertainty principle (QGUP); Conformal Emergent Reality Model (CERM); Omega field; Chronos; Omegon; geometric entropy; arrow of time; cosmic inflation; geometric inflation; dark matter; dark energy; quantum cosmology; aeonic information transfer.</p>
+      </section>
+      <section class="citation-block" aria-labelledby="citation-heading">
+        <h2 id="citation-heading">BibTeX citation</h2>
+        <pre>@misc{akhtar2026unfreezingtime,
+  author    = {Akhtar, Salman},
+  title     = {Unfreezing Time: Unifying General Relativity and Quantum Mechanics through Conformal Emergent Geometry},
+  year      = {2026},
+  version   = {1.1},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22947669},
+  url       = {https://doi.org/10.5281/zenodo.22947669}
+}</pre>
+      </section>
+      <nav class="related" aria-labelledby="related-heading">
+        <h2 id="related-heading">Other CERM manuscripts</h2>
+        <ul>
+          <li><a href="unfreezing-time-and-mass.html">Unfreezing Time and Mass</a></li>
+          <li><a href="fading-mass.html">Fading Mass</a></li>
+          <li><a href="adaptive-dark-matter.html">Adaptive Dark Matter</a></li>
+          <li><a href="vector-dark-matter.html">A Paired Tidal Test of Ultralight Vector Dark Matter</a></li>
+        </ul>
+      </nav>
+    </main>
+    <footer>Conformal Emergent Reality Model (CERM) · Salman Akhtar</footer>
   </div>
 </body>
 </html>

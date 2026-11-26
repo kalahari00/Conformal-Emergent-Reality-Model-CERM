@@ -5,100 +5,117 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Conformal Emergent Reality Model (CERM) – Salman Akhtar</title>
   <meta name="description" content="The Conformal Emergent Reality Model (CERM) asks whether the clocks and rulers used to describe the universe can arise from its geometry." />
-
-  <!-- Google Scholar / Highwire Press Metadata for Paper 1 -->
-  <meta name="citation_title" content="Unfreezing Time and Mass: Conformal Unification of General Relativity, Quantum Mechanics, and the Standard Model" />
-  <meta name="citation_author" content="Akhtar, Salman" />
-  <meta name="citation_publication_date" content="2026/11/09" />
-  <meta name="citation_online_date" content="2026/11/09" />
-  <meta name="citation_doi" content="10.5281/zenodo.23741406" />
-  <meta name="citation_abstract_html_url" content="https://kalahari00.github.io/Conformal-Emergent-Reality-Model-CERM/" />
-  <meta name="citation_pdf_url" content="https://kalahari00.github.io/Conformal-Emergent-Reality-Model-CERM/Unfreezing_Time_and_Mass__Conformal_Unification_of_General_Relativity__Quantum_Mechanics__and_the_Standard_Model__v1_1.pdf" />
-
+  <link rel="canonical" href="https://kalahari00.github.io/Conformal-Emergent-Reality-Model-CERM/" />
   <style>
-    :root { --bg: #fafafa; --card: #ffffff; --text: #1a202c; --muted: #4a5568; --accent: #1d4ed8; --border: #e2e8f0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Georgia, serif; background: var(--bg); color: var(--text); line-height: 1.65; margin: 0; padding: 2rem 1rem; }
-    .container { max-width: 820px; margin: 0 auto; }
-    header, section { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.75rem 2rem; margin-bottom: 1.5rem; }
-    h1 { margin: 0 0 0.35rem 0; font-size: 1.75rem; line-height: 1.25; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin-bottom: 1rem; }
-    .badges a { display: inline-block; margin: 0.25rem 0.5rem 0.25rem 0; padding: 0.35rem 0.75rem; font-size: 0.88rem; color: var(--accent); background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 5px; text-decoration: none; font-weight: 600; }
-    .badges a:hover { background: #dbeafe; }
-    h2 { margin-top: 0; font-size: 1.3rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
-    ol { padding-left: 1.25rem; margin: 0; }
-    li { margin-bottom: 1.15rem; }
-    li:last-child { margin-bottom: 0; }
-    .links { margin-top: 0.3rem; font-size: 0.92rem; }
-    a { color: var(--accent); text-decoration: none; font-weight: 600; }
-    a:hover { text-decoration: underline; }
-    footer { text-align: center; font-size: 0.85rem; color: var(--muted); margin-top: 2rem; }
+
+    :root { --bg:#fafafa; --card:#fff; --text:#1a202c; --muted:#4a5568; --accent:#1d4ed8; --border:#e2e8f0; }
+    * { box-sizing:border-box; }
+    body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; margin:0; padding:2rem 1rem; }
+    .container { max-width:900px; margin:0 auto; }
+    header, main { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:1.75rem 2rem; margin-bottom:1.5rem; }
+    h1 { font-size:1.85rem; line-height:1.3; margin:0 0 .6rem; overflow-wrap:break-word; }
+    h2 { font-size:1.3rem; line-height:1.4; margin:0 0 1rem; }
+    p { margin:0 0 1rem; }
+    p:last-child { margin-bottom:0; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    a:focus-visible { outline:3px solid #93c5fd; outline-offset:3px; }
+    .back { display:inline-block; margin:0 0 1.25rem; font-size:.95rem; }
+    .subtitle, .meta, .keywords, .source-note { color:var(--muted); }
+    .subtitle { font-size:1.05rem; margin-bottom:1rem; }
+    .meta { font-size:.95rem; margin-bottom:.45rem; overflow-wrap:anywhere; }
+    .actions, .badges { display:flex; flex-wrap:wrap; gap:.65rem; margin-top:1.1rem; }
+    .button, .badges a { display:inline-block; background:#eff6ff; border:1px solid #bfdbfe; border-radius:5px; padding:.4rem .8rem; font-size:.92rem; font-weight:600; }
+    .button.primary { color:white; background:var(--accent); border-color:var(--accent); }
+    .button:hover, .badges a:hover { text-decoration:none; filter:brightness(.96); }
+    #abstract p { margin:0 0 1.15rem; }
+    .keywords { font-size:.92rem; margin-top:1.25rem; }
+    .source-note { border-left:3px solid var(--border); padding:.6rem 0 .6rem 1rem; margin-top:1.25rem; font-size:.94rem; }
+    .citation-block, .related { border-top:1px solid var(--border); padding-top:1.5rem; margin-top:1.75rem; }
+    pre { background:#f6f8fa; border:1px solid var(--border); border-radius:6px; padding:1rem; font-size:.84rem; line-height:1.5; white-space:pre-wrap; overflow-wrap:anywhere; margin:0; }
+    ol { padding-left:1.4rem; margin:0; }
+    .papers li { padding-left:.25rem; margin-bottom:1.5rem; }
+    .papers li:last-child { margin-bottom:0; }
+    .papers p { margin:.3rem 0; }
+    .paper-title { font-size:1.08rem; font-weight:700; }
+    .links { font-size:.94rem; margin-top:.45rem; display:flex; flex-wrap:wrap; gap:.25rem .8rem; }
+    .related ul { padding-left:1.2rem; margin:0; }
+    .related li { margin:.35rem 0; }
+    .math { font-family:"Cambria Math","STIX Two Math",Georgia,serif; white-space:nowrap; }
+    footer { text-align:center; font-size:.85rem; color:var(--muted); padding:.5rem 0 1rem; }
+    @media (max-width:600px) { body { padding:1rem .65rem; } header,main { padding:1.3rem 1.1rem; } h1 { font-size:1.55rem; } .subtitle { font-size:1rem; } }
+    @media print { body { padding:0; background:white; color:black; } header,main { padding:0; border:0; } .back,.actions,.badges,.related { display:none; } a { color:inherit; } }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
       <h1>Conformal Emergent Reality Model (CERM)</h1>
-      <div class="subtitle">Salman Akhtar &middot; Independent Researcher</div>
-      <div class="badges">
+      <p class="subtitle">Salman Akhtar · Independent Researcher</p>
+      <div class="badges" aria-label="Research profiles">
         <a href="https://orcid.org/0009-0000-8105-9597" target="_blank" rel="noopener">ORCID: 0009-0000-8105-9597</a>
         <a href="https://scholar.google.com/citations?user=90R6n4YAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-        <a href="https://www.wikidata.org/wiki/Q142293532" target="_blank" rel="noopener">Wikidata (Q142293532)</a>
-        <a href="https://scholia.toolforge.org/author/Q142293532" target="_blank" rel="noopener">Scholia Profile</a>
+        <a href="https://www.wikidata.org/wiki/Q142293532" target="_blank" rel="noopener">Wikidata record</a>
+        <a href="https://scholia.toolforge.org/author/Q142293532" target="_blank" rel="noopener">Scholia profile</a>
       </div>
     </header>
-
-    <section>
+    <main>
       <h2>Start here</h2>
-      <p>
-        The Conformal Emergent Reality Model (CERM) asks whether the clocks and rulers used to describe the universe can arise from its geometry. The five manuscripts below develop that idea, from its mathematical foundations to its applications in particle physics and cosmology.
-      </p>
-      <ol>
+      <p>The Conformal Emergent Reality Model (CERM) asks whether the clocks and rulers used to describe the universe can arise from its geometry. The five manuscripts below develop that idea, from its mathematical foundations to its applications in particle physics and cosmology.</p>
+      <ol class="papers">
         <li>
-          <strong>Unfreezing Time and Mass</strong> &mdash; Start with this short overview for the central ideas and how the papers fit together. (DOI: 10.5281/zenodo.23741406)
+          <a class="paper-title" href="unfreezing-time-and-mass.html">Unfreezing Time and Mass</a>
+          <p>Start with this short overview for the central ideas and how the papers fit together.</p>
+          <p class="meta">DOI: 10.5281/zenodo.23741406</p>
           <div class="links">
-            <a href="unfreezing-time-and-mass.html">Abstract &amp; Metadata</a> &middot;
-            <a href="Unfreezing_Time_and_Mass__Conformal_Unification_of_General_Relativity__Quantum_Mechanics__and_the_Standard_Model__v1_1.pdf">Direct PDF</a> &middot;
-            <a href="https://doi.org/10.5281/zenodo.23741406" target="_blank" rel="noopener">Latest revision on Zenodo &rarr;</a>
+            <a href="unfreezing-time-and-mass.html">Abstract &amp; Metadata</a>
+            <a href="Unfreezing_Time_and_Mass__Conformal_Unification_of_General_Relativity__Quantum_Mechanics__and_the_Standard_Model__v1_1.pdf">Direct PDF</a>
+            <a href="https://doi.org/10.5281/zenodo.23741406" target="_blank" rel="noopener">Latest version on Zenodo →</a>
           </div>
         </li>
         <li>
-          <strong>Unfreezing Time</strong> &mdash; Read this for the geometric clock, the recovery of Einstein gravity and quantum evolution under stated conditions, and the mathematical derivations. (DOI: 10.5281/zenodo.22947669)
+          <a class="paper-title" href="unfreezing-time.html">Unfreezing Time</a>
+          <p>Read this for the geometric clock, the recovery of Einstein gravity and quantum evolution under stated conditions, and the mathematical derivations.</p>
+          <p class="meta">DOI: 10.5281/zenodo.22947669</p>
           <div class="links">
-            <a href="unfreezing-time.html">Abstract &amp; Metadata</a> &middot;
-            <a href="Unfreezing_Time__Unifying_General_Relativity_and_Quantum_Mechanics_through_Conformal_Emergent_Geometry_v1_1___final.pdf">Direct PDF</a> &middot;
-            <a href="https://doi.org/10.5281/zenodo.22947669" target="_blank" rel="noopener">Latest revision on Zenodo &rarr;</a>
+            <a href="unfreezing-time.html">Abstract &amp; Metadata</a>
+            <a href="Unfreezing_Time__Unifying_General_Relativity_and_Quantum_Mechanics_through_Conformal_Emergent_Geometry_v1_1___final.pdf">Direct PDF</a>
+            <a href="https://doi.org/10.5281/zenodo.22947669" target="_blank" rel="noopener">Latest version on Zenodo →</a>
           </div>
         </li>
         <li>
-          <strong>Fading Mass</strong> &mdash; Read this for the proposed Standard Model extension and how the framework treats changing particle mass scales. (DOI: 10.5281/zenodo.23740321)
+          <a class="paper-title" href="fading-mass.html">Fading Mass</a>
+          <p>Read this for the proposed Standard Model extension and how the framework treats changing particle mass scales.</p>
+          <p class="meta">DOI: 10.5281/zenodo.23740321</p>
           <div class="links">
-            <a href="fading-mass.html">Abstract &amp; Metadata</a> &middot;
-            <a href="Fading_Mass__Unifying_General_Relativity_and_Quantum_Mechanics_through_Conformal_Emergent_Geometry_v1_0__Final_.pdf">Direct PDF</a> &middot;
-            <a href="https://doi.org/10.5281/zenodo.23740321" target="_blank" rel="noopener">Latest revision on Zenodo &rarr;</a>
+            <a href="fading-mass.html">Abstract &amp; Metadata</a>
+            <a href="Fading_Mass__Unifying_General_Relativity_and_Quantum_Mechanics_through_Conformal_Emergent_Geometry_v1_0__Final_.pdf">Direct PDF</a>
+            <a href="https://doi.org/10.5281/zenodo.23740321" target="_blank" rel="noopener">Latest version on Zenodo →</a>
           </div>
         </li>
         <li>
-          <strong>Adaptive Dark Matter</strong> &mdash; Read this for the Omegon proposal, in which local curvature sets the mass of a dark matter candidate, and its applications to galaxies and galaxy clusters. (DOI: 10.5281/zenodo.24090840)
+          <a class="paper-title" href="adaptive-dark-matter.html">Adaptive Dark Matter</a>
+          <p>Read this for the Omegon proposal, in which local curvature sets the mass of a dark matter candidate, and its applications to galaxies and galaxy clusters.</p>
+          <p class="meta">DOI: 10.5281/zenodo.24090840</p>
           <div class="links">
-            <a href="adaptive-dark-matter.html">Abstract &amp; Metadata</a> &middot;
-            <a href="Adaptive_Dark_Matter__When_Geometry_Sets_the_Mass___v1_0.pdf">Direct PDF</a> &middot;
-            <a href="https://doi.org/10.5281/zenodo.24090840" target="_blank" rel="noopener">Latest revision on Zenodo &rarr;</a>
+            <a href="adaptive-dark-matter.html">Abstract &amp; Metadata</a>
+            <a href="Adaptive_Dark_Matter__When_Geometry_Sets_the_Mass___v1_0.pdf">Direct PDF</a>
+            <a href="https://doi.org/10.5281/zenodo.24090840" target="_blank" rel="noopener">Latest version on Zenodo →</a>
           </div>
         </li>
         <li>
-          <strong>A Paired Tidal Test of Ultralight Vector Dark Matter</strong> &mdash; Read this for a general pulsar-timing test method for scalar&ndash;tensor dark matter theories that uses a coherent vector field to cancel unknown dark matter density and measure scalar&ndash;curvature mixing within CERM. (DOI: 10.5281/zenodo.24218678)
+          <a class="paper-title" href="vector-dark-matter.html">A Paired Tidal Test of Ultralight Vector Dark Matter</a>
+          <p>Read this for a general pulsar-timing test method for scalar–tensor dark matter theories that uses a coherent vector field to cancel unknown dark matter density and measure scalar–curvature mixing within CERM.</p>
+          <p class="meta">DOI: 10.5281/zenodo.24218678</p>
           <div class="links">
-            <a href="vector-dark-matter.html">Abstract &amp; Metadata</a> &middot;
-            <a href="Paired_Tidal_Test_of_Ultralight_Vector_Dark_Matter___CERM_Vector_Extension_Release_v1_0.pdf">Direct PDF</a> &middot;
-            <a href="https://doi.org/10.5281/zenodo.24218678" target="_blank" rel="noopener">Latest revision on Zenodo &rarr;</a>
+            <a href="vector-dark-matter.html">Abstract &amp; Metadata</a>
+            <a href="Paired_Tidal_Test_of_Ultralight_Vector_Dark_Matter___CERM_Vector_Extension_Release_v1_0.pdf">Direct PDF</a>
+            <a href="https://doi.org/10.5281/zenodo.24218677" target="_blank" rel="noopener">Latest version on Zenodo →</a>
           </div>
         </li>
       </ol>
-    </section>
-
-    <footer>
-      Conformal Emergent Reality Model (CERM) &middot; Salman Akhtar
-    </footer>
+    </main>
+    <footer>Conformal Emergent Reality Model (CERM) · Salman Akhtar</footer>
   </div>
 </body>
 </html>

@@ -3,176 +3,100 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fading Mass – Salman Akhtar</title>
-  <meta name="description" content="Fading Mass by Salman Akhtar. A proposed Standard Model extension treating changing particle mass scales within the Conformal Emergent Reality Model (CERM)." />
-
-  <!-- Google Scholar Metadata -->
-  <meta name="citation_title" content="Fading Mass" />
+  <title>Fading Mass: A Conformal Extension of the Standard Model – Salman Akhtar</title>
+  <meta name="description" content="Fading Mass by Salman Akhtar. If the geometry that supplies physical rulers and clocks evolves, how do particle masses evolve with it? The difficulty reaches beyond the Higgs mechanism: most proton mass comes from strong-interaction dynamics, so moving the electroweak scale does not automatically move composite matter." />
+  <link rel="canonical" href="https://kalahari00.github.io/Conformal-Emergent-Reality-Model-CERM/fading-mass.html" />
+  <!-- Bibliographic metadata for this paper and its hosted PDF. -->
+  <meta name="citation_title" content="Fading Mass: A Conformal Extension of the Standard Model" />
   <meta name="citation_author" content="Akhtar, Salman" />
-  <meta name="citation_publication_date" content="2026" />
+  <meta name="citation_publication_date" content="2026/10/28" />
   <meta name="citation_doi" content="10.5281/zenodo.23740321" />
   <meta name="citation_abstract_html_url" content="https://kalahari00.github.io/Conformal-Emergent-Reality-Model-CERM/fading-mass.html" />
   <meta name="citation_pdf_url" content="https://kalahari00.github.io/Conformal-Emergent-Reality-Model-CERM/Fading_Mass__Unifying_General_Relativity_and_Quantum_Mechanics_through_Conformal_Emergent_Geometry_v1_0__Final_.pdf" />
-
   <style>
-    :root {
-      --bg: #ffffff;
-      --text: #1f2328;
-      --muted: #656d76;
-      --border: #d0d7de;
-      --accent: #0969da;
-      --accent-hover: #0550ae;
-      --card-bg: #f6f8fa;
-    }
-    * { box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-      color: var(--text);
-      background: var(--bg);
-      max-width: 820px;
-      margin: 0 auto;
-      padding: 2.5rem 1.5rem;
-    }
-    nav {
-      margin-bottom: 2rem;
-      font-size: 0.95rem;
-    }
-    nav a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-    nav a:hover { text-decoration: underline; }
-    h1 {
-      font-size: 2rem;
-      line-height: 1.25;
-      margin: 0 0 0.5rem 0;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 0.75rem;
-    }
-    .meta {
-      color: var(--muted);
-      font-size: 0.95rem;
-      margin-bottom: 1.75rem;
-    }
-    .meta a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-    .meta a:hover { text-decoration: underline; }
-    .abstract-box {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 1.25rem 1.5rem;
-      margin-bottom: 1.75rem;
-    }
-    .abstract-box h2 {
-      font-size: 1.1rem;
-      margin: 0 0 0.5rem 0;
-    }
-    .abstract-box p { margin: 0; }
-    .btn-group {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-      margin-bottom: 2rem;
-    }
-    .btn {
-      display: inline-block;
-      padding: 0.55rem 1rem;
-      border-radius: 6px;
-      font-weight: 600;
-      font-size: 0.95rem;
-      text-decoration: none;
-      border: 1px solid var(--border);
-      color: var(--text);
-      background: var(--card-bg);
-    }
-    .btn-primary {
-      background: var(--accent);
-      color: #ffffff;
-      border-color: var(--accent);
-    }
-    .btn-primary:hover {
-      background: var(--accent-hover);
-      border-color: var(--accent-hover);
-    }
-    .btn:hover:not(.btn-primary) {
-      background: #eaeef2;
-    }
-    .citation-block {
-      margin-top: 2rem;
-      padding-top: 1.25rem;
-      border-top: 1px solid var(--border);
-    }
-    .citation-block h2 {
-      font-size: 1.1rem;
-      margin: 0 0 0.5rem 0;
-    }
-    pre {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 1rem;
-      overflow-x: auto;
-      font-size: 0.85rem;
-      line-height: 1.45;
-    }
-    footer {
-      margin-top: 3rem;
-      padding-top: 1rem;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 0.875rem;
-    }
+
+    :root { --bg:#fafafa; --card:#fff; --text:#1a202c; --muted:#4a5568; --accent:#1d4ed8; --border:#e2e8f0; }
+    * { box-sizing:border-box; }
+    body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; margin:0; padding:2rem 1rem; }
+    .container { max-width:900px; margin:0 auto; }
+    header, main { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:1.75rem 2rem; margin-bottom:1.5rem; }
+    h1 { font-size:1.85rem; line-height:1.3; margin:0 0 .6rem; overflow-wrap:break-word; }
+    h2 { font-size:1.3rem; line-height:1.4; margin:0 0 1rem; }
+    p { margin:0 0 1rem; }
+    p:last-child { margin-bottom:0; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    a:focus-visible { outline:3px solid #93c5fd; outline-offset:3px; }
+    .back { display:inline-block; margin:0 0 1.25rem; font-size:.95rem; }
+    .subtitle, .meta, .keywords, .source-note { color:var(--muted); }
+    .subtitle { font-size:1.05rem; margin-bottom:1rem; }
+    .meta { font-size:.95rem; margin-bottom:.45rem; overflow-wrap:anywhere; }
+    .actions, .badges { display:flex; flex-wrap:wrap; gap:.65rem; margin-top:1.1rem; }
+    .button, .badges a { display:inline-block; background:#eff6ff; border:1px solid #bfdbfe; border-radius:5px; padding:.4rem .8rem; font-size:.92rem; font-weight:600; }
+    .button.primary { color:white; background:var(--accent); border-color:var(--accent); }
+    .button:hover, .badges a:hover { text-decoration:none; filter:brightness(.96); }
+    #abstract p { margin:0 0 1.15rem; }
+    .keywords { font-size:.92rem; margin-top:1.25rem; }
+    .source-note { border-left:3px solid var(--border); padding:.6rem 0 .6rem 1rem; margin-top:1.25rem; font-size:.94rem; }
+    .citation-block, .related { border-top:1px solid var(--border); padding-top:1.5rem; margin-top:1.75rem; }
+    pre { background:#f6f8fa; border:1px solid var(--border); border-radius:6px; padding:1rem; font-size:.84rem; line-height:1.5; white-space:pre-wrap; overflow-wrap:anywhere; margin:0; }
+    ol { padding-left:1.4rem; margin:0; }
+    .papers li { padding-left:.25rem; margin-bottom:1.5rem; }
+    .papers li:last-child { margin-bottom:0; }
+    .papers p { margin:.3rem 0; }
+    .paper-title { font-size:1.08rem; font-weight:700; }
+    .links { font-size:.94rem; margin-top:.45rem; display:flex; flex-wrap:wrap; gap:.25rem .8rem; }
+    .related ul { padding-left:1.2rem; margin:0; }
+    .related li { margin:.35rem 0; }
+    .math { font-family:"Cambria Math","STIX Two Math",Georgia,serif; white-space:nowrap; }
+    footer { text-align:center; font-size:.85rem; color:var(--muted); padding:.5rem 0 1rem; }
+    @media (max-width:600px) { body { padding:1rem .65rem; } header,main { padding:1.3rem 1.1rem; } h1 { font-size:1.55rem; } .subtitle { font-size:1rem; } }
+    @media print { body { padding:0; background:white; color:black; } header,main { padding:0; border:0; } .back,.actions,.badges,.related { display:none; } a { color:inherit; } }
   </style>
 </head>
 <body>
-
-  <nav>
-    <a href="index.html">← Back to Conformal Emergent Reality Model (CERM)</a>
-  </nav>
-
-  <header>
-    <h1>Fading Mass</h1>
-    <div class="meta">
-      <strong>Salman Akhtar</strong> · Independent Researcher<br />
-      ORCID: <a href="https://orcid.org/0009-0000-8105-9597" target="_blank" rel="noopener">0009-0000-8105-9597</a> ·
-      DOI: <a href="https://doi.org/10.5281/zenodo.23740321" target="_blank" rel="noopener">10.5281/zenodo.23740321</a>
-    </div>
-  </header>
-
-  <main>
-    <section class="abstract-box">
-      <h2>Overview</h2>
-      <p>
-        Part of the Conformal Emergent Reality Model (CERM) series. This manuscript develops the proposed Standard Model extension and examines how the framework treats changing particle mass scales.
-      </p>
-    </section>
-
-    <div class="btn-group">
-      <a class="btn" href="Fading_Mass__Unifying_General_Relativity_and_Quantum_Mechanics_through_Conformal_Emergent_Geometry_v1_0__Final_.pdf">Direct PDF</a>
-      <a class="btn btn-primary" href="https://doi.org/10.5281/zenodo.23740321" target="_blank" rel="noopener">Read Latest Revision on Zenodo →</a>
-      <a class="btn" href="index.html">View All CERM Manuscripts</a>
-    </div>
-
-    <section class="citation-block">
-      <h2>BibTeX Citation</h2>
-      <pre>@misc{akhtar2026fadingmass,
-  author       = {Akhtar, Salman},
-  title        = {Fading Mass},
-  year         = {2026},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.23740321},
-  url          = {https://doi.org/10.5281/zenodo.23740321}
+  <div class="container">
+    <nav aria-label="Breadcrumb"><a class="back" href="index.html">← Back to the CERM Research Hub</a></nav>
+    <header>
+      <h1>Fading Mass: A Conformal Extension of the Standard Model</h1>
+      <p class="subtitle">A Conformal Emergent Reality Model Framework</p>
+      <p class="meta"><strong>Salman Akhtar</strong> · Independent Researcher · <a href="https://orcid.org/0009-0000-8105-9597" target="_blank" rel="noopener">ORCID: 0009-0000-8105-9597</a></p>
+      <p class="meta">Preprint v1.0 · <time datetime="2026-10-28">28 October 2026</time></p>
+      <p class="meta">DOI: <a href="https://doi.org/10.5281/zenodo.23740321" target="_blank" rel="noopener">10.5281/zenodo.23740321</a></p>
+      <div class="actions">
+        <a class="button primary" href="Fading_Mass__Unifying_General_Relativity_and_Quantum_Mechanics_through_Conformal_Emergent_Geometry_v1_0__Final_.pdf">Read full PDF</a>
+        <a class="button" href="https://doi.org/10.5281/zenodo.23740321" target="_blank" rel="noopener">Latest version on Zenodo →</a>
+      </div>
+    </header>
+    <main>
+      <section id="abstract" aria-labelledby="abstract-heading">
+        <h2 id="abstract-heading">Abstract</h2>
+        <p>If the geometry that supplies physical rulers and clocks evolves, how do particle masses evolve with it? The difficulty reaches beyond the Higgs mechanism: most proton mass comes from strong-interaction dynamics, so moving the electroweak scale does not automatically move composite matter. We formulate the Standard Model within the Conformal Emergent Reality Model (CERM), whose scale factor <span class="math">Ω = ϕχ</span> contains the accumulated curvature history χ, called Chronos. A moving Higgs minimum and a declared physical matching postulate carry the electroweak and QCD scales together, giving ordinary masses a common inverse-Chronos law with fixed dimensionless mass ratios on the matched tracking branch. The matching postulate is a declared physical input; its quantum protection and derivation from the geometric action remain future work. The exact conformal Dirac identity carries this mass law through the full relativistic wave equation, and the geometric clock yields ordinary quantum evolution in physical proper time at semiclassical test-matter order. A nonlinear finite-interval bound determines when the Higgs actually follows its moving minimum. The selected Majorana-neutrino interaction gives a conditional test: a Higgs tracking departure changes every nonzero neutrino mass-squared splitting relative to the electron mass squared by the same factor <span class="math">(1 + e)<sup>2</sup></span>, while charged-fermion mass ratios remain fixed. These results give CERM explicit elementary and composite matter, consistent quantum propagation, and geometric feedback, connecting evolving laboratory standards to the ordinary-matter fading of its aeonic completion.</p>
+        <p class="keywords"><strong>Keywords:</strong> emergent scale; Standard Model; Chronos; Higgs tracking; QCD matching; Dirac equation; Majorana neutrinos.</p>
+      </section>
+      <section class="citation-block" aria-labelledby="citation-heading">
+        <h2 id="citation-heading">BibTeX citation</h2>
+        <pre>@misc{akhtar2026fadingmass,
+  author    = {Akhtar, Salman},
+  title     = {Fading Mass: A Conformal Extension of the Standard Model},
+  year      = {2026},
+  version   = {1.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23740321},
+  url       = {https://doi.org/10.5281/zenodo.23740321}
 }</pre>
-    </section>
-  </main>
-
-  <footer>
-    Conformal Emergent Reality Model (CERM) · Salman Akhtar
-  </footer>
-
+      </section>
+      <nav class="related" aria-labelledby="related-heading">
+        <h2 id="related-heading">Other CERM manuscripts</h2>
+        <ul>
+          <li><a href="unfreezing-time-and-mass.html">Unfreezing Time and Mass</a></li>
+          <li><a href="unfreezing-time.html">Unfreezing Time</a></li>
+          <li><a href="adaptive-dark-matter.html">Adaptive Dark Matter</a></li>
+          <li><a href="vector-dark-matter.html">A Paired Tidal Test of Ultralight Vector Dark Matter</a></li>
+        </ul>
+      </nav>
+    </main>
+    <footer>Conformal Emergent Reality Model (CERM) · Salman Akhtar</footer>
+  </div>
 </body>
 </html>
